@@ -4,11 +4,14 @@
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link-wrapper/header__wrapper.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url();
+@import url();
 
 /*main*/
-@import url();
-@import url();
+@import url(../blocks/page/page.css);
+
 @import url();
 @import url();
 @import url();

@@ -1,0 +1,6 @@
+.header__wrapper {
+  outline: solid 1px pink;
+  margin: 0px;
+  padding: 0px;     
+  display: flex;
+}

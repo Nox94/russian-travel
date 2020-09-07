@@ -1,7 +1,12 @@
 .header__logo {
-  position: absolute;
-  width: 176px;
-  height: 52px;
-  left: 48px;
-  top: 28px;
+    width: 142px;
+    height: 42px;
+    outline: 1px solid red;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .header__logo {
+      width: 176px;
+      height: 52px;
+    }
 }
