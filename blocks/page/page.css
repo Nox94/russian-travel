@@ -1,6 +1,11 @@
 .page {
     position: relative;
     background-color: #2A2C2F;
+<<<<<<< Updated upstream
     width: 100vw;
     height: 100vh;
+=======
+    width: 100%;
+    min-height: 9630px;
+>>>>>>> Stashed changes
 }
