@@ -1,6 +1,7 @@
 .header__wrapper {
   outline: solid 1px pink;
-  margin: 0px;
-  padding: 0px;     
+  margin: 0;
+  padding: 0;     
   display: flex;
+  list-style-type: none;
 }

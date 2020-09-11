@@ -1,10 +1,10 @@
 .header__logo {
     width: 142px;
     height: 42px;
-    outline: 1px solid red;
+    outline: 1px solid bisque;
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) {
     .header__logo {
       width: 176px;
       height: 52px;

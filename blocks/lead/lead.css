@@ -1,6 +1,31 @@
 .lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 320px;
-  height: 406px;
-  outline: aqua 2px solid;
-  margin: 0 auto;
+  min-height: auto;
+  outline: 0.5px solid beige;
+  margin: 0 auto 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead {
+      width: 768px;
+      min-height: auto;
+      margin: 0 auto 88px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .lead {
+      width: 928px;
+      margin: 0 auto 92px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .lead {
+      width: 984px;
+    }
 }

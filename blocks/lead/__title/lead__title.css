@@ -1,4 +1,4 @@
-.lead__title {
+.lead__title { 
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -6,4 +6,15 @@
   line-height: 44px;
   text-align: center;
   color: #FFFFFF;
+  outline: 2px solid goldenrod;
+  margin: 0 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__title {
+        font-size: 96px;
+        line-height: 100px;
+        max-width: 720px;
+        margin: 0 0 32px;
+    }
 }
