@@ -13,6 +13,16 @@
 
 @media screen and (min-width:1024px) {
     .intro {
-        width: 690px;
+      width: 928px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .intro {
+      width: 984px;
     }
 }
