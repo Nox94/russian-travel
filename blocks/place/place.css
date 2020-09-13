@@ -9,7 +9,6 @@
 
 @media screen and (min-width:768px){
   .place {
-
     margin: 0 auto 48px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
