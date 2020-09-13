@@ -1,13 +1,15 @@
 .place {
-  width: 288px;
+  width: 100%;
   min-height: auto;
   margin: 0 auto 48px;
   outline: 1px solid sandybrown;
+  overflow: hidden;
 }
+
 
 @media screen and (min-width:768px){
   .place {
-    width: 720px;
+
     margin: 0 auto 48px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,13 +18,13 @@
 }
 @media screen and (min-width:1024px){
   .place {
-    width: 928px;
+
     margin: 0 auto 80px;
     gap: 48px 32px;
   }
 }
 @media screen and (min-width:1280px){
   .place {
-    width: 984px;
+    gap: 48px 40px;
   }
 }

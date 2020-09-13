@@ -1,20 +1,18 @@
 .intro {
-    outline: 1px solid navajowhite;
-    margin: 0 auto 64px;
-    width: 288px;
-    min-height: auto;
+  outline: 1px solid navajowhite;
+  margin: 0 auto 64px;
+  max-width: 984px;
+  min-height: auto;
 }
 
 @media screen and (min-width:768px) {
     .intro {
-      width: 720px;
       margin: 0 auto 88px;
     }
 }
 
 @media screen and (min-width:1024px) {
     .intro {
-      width: 928px;
       display: flex;
       flex-direction: column;
       justify-content: left;
@@ -25,6 +23,5 @@
 
 @media screen and (min-width:1280px) {
     .intro {
-      width: 984px;
     }
 }

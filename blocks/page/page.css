@@ -1,9 +1,4 @@
-
 .page {
-    position: relative;
-    background-color: #2A2C2F;
-    width: 100%;
-    box-sizing: border-box;
-    min-width: 320px;
-    margin: 0;
+  max-width: 1184px;
+  margin: 0 auto;
 }

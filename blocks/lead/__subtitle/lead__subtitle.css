@@ -10,6 +10,19 @@ outline: 2px solid goldenrod;
 margin: 0 0 40px;
 }
 
+@media screen and (min-width:344px){
+    .lead__subtitle {
+        max-width: 288px;
+
+    }
+}
+
+@media screen and(min-width:600px){
+    .lead__subtitle {
+        max-width: 400px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .lead__subtitle {
       font-size: 30px;
