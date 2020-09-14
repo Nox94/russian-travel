@@ -1,11 +1,10 @@
 .intro__title {
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
   color: #FFFFFF;
-  outline: 1px solid khaki;
   padding: 0;
   margin: 0 0 40px 0;
 }

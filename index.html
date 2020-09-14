@@ -14,7 +14,7 @@
     <img class="header__logo" src="./images/header-logo.svg" alt="логотип в виде карты государства с надписью Россия.">
     <nav>
       <ul class="header__wrapper">
-        <li><a class="header__lang-link header__lang-link_ru" href="#">Ru</a></li>
+        <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
         <li><a class="header__lang-link" href="#">En</a></li>
       </ul>
       </nav>
@@ -22,7 +22,7 @@
 <!--main-->
   <main class="page">
 <!--lead-->
-    <section class="lead page-section">
+    <section class="lead page-section_zero-padding">
       <h1 class="lead__title">
           Путешествия по России
       </h1>
@@ -240,11 +240,11 @@
         </div>
     </section>
 <!--cover-->
-    <section class="cover page-section page-section_zero-padding">
+    <section class="cover">
+      <img class="cover__background" src="./images/cover-trains.jpg">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <img class="cover__background" src="./images/cover-trains.jpg">
         <h2 class="cover__title">
-            До Байкала «на собаках»
+            До Байкала «на&nbsp;собаках»
         </h2>
         <h3 class="cover__subtitle">
             По мотивам учебной темы о Транссибе и iframes
@@ -255,12 +255,22 @@
   </main>
 <!--footer-->
   <footer class="footer page-section">
-      <ul>
-          <li><a href="https://yandex.ru/maps">Карты</a></li>
-          <li><a href="https://yandex.ru/pogoda">Погода</a></li>
-          <li><a href="https://rasp.yandex.ru">Расписание</a></li>
-          <li><a href="https://rasp.yandex.ru">Календарь</a></li>
-          <li><a href="https://travel.yandex.ru">Путешествия</a></li>
+      <ul class="footer__list">
+          <li class="footer__list-element">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li class="footer__list-element">
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li class="footer__list-element">
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li class="footer__list-element">
+            <a class="footer__link" href="https://rasp.yandex.ru">Календарь</a>
+          </li>
+          <li class="footer__list-element">
+            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+          </li>
       </ul>
       <p class="footer__copyright">&#64;2020. Евгения Амелина</p>
   </footer>
