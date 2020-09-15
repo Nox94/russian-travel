@@ -1,7 +1,11 @@
-/*body*/
-@import url(../blocks/body/body.css);
+/*normalize*/
+@import url(../vendor/normalize.css);
+
 /*fonts*/
 @import url(../fonts/fonts.css);
+
+/*body*/
+@import url(../blocks/body/body.css);
 
 /*header*/
 @import url(../blocks/header/header.css);

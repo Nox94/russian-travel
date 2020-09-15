@@ -1,6 +1,67 @@
 .cover {
-  max-width: 1184px;
+  width: 320px;
+  height: 200px;
   position: relative;
+  margin: 0 0 64px 0;
+}
+
+@media screen and (min-width:321px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
+}
+
+@media screen and (min-width:400px) {
+  .cover {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+
+@media screen and (min-width:500px) {
+  .cover {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+
+@media screen and (min-width:600px) {
+  .cover {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    margin: 0 0 88px 0;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .cover {
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+    margin: 0 0 92px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .cover {
+    width: 1184px;
+    height: 740px;
+    margin: 0 auto 92px;
+  }
 }
 
 .cover::before {

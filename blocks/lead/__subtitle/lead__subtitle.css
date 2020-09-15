@@ -33,4 +33,5 @@ margin: 0 0 40px;
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
     margin: 0 0 64px;
+  }
 }
