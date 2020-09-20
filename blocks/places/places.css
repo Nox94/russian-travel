@@ -3,7 +3,7 @@
   margin: 0 auto 64px;
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:768px){
   .places {
     margin: 0 auto 88px;
   }

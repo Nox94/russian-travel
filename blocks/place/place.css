@@ -7,20 +7,32 @@
 
 @media screen and (min-width:768px){
   .place {
-    margin: 0 auto 48px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 48px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 720px;
+    margin: 0 24px 72px;
   }
 }
-@media screen and (min-width:1024px){
+
+@media screen and (min-width:769px){
   .place {
     margin: 0 auto 80px;
-    gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .place {
+    width: 928px;
+    margin: 0 48px 80px;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width:1280px){
   .place {
-    gap: 48px 40px;
+    width: 984px;
+    margin: 0 auto 80px;
+    align-items: flex-start;
   }
 }

@@ -5,12 +5,10 @@
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
+  width: 288px;
   padding: 0 16px 0;
   margin: 0 0 24px;
-  box-sizing: border-box;
 }
-
-
 
 .place__paragraph:last-child {
   margin: 0;
@@ -18,8 +16,7 @@
 
 @media screen and (min-width:768px){
   .place__paragraph {
-    grid-column: 2;
-    grid-row: 2;
+    padding: 0;
     width: 352px;
     margin: 0 0 24px;
   }
@@ -32,5 +29,12 @@
   .place__paragraph {
     font-size: 18px;
     line-height: 29px;
+    width: 456px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+  .place__paragraph {
+    width: 484px;
     }
 }
