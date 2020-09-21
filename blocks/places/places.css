@@ -11,6 +11,12 @@
 
 @media screen and (min-width:1024px){
   .places {
+    margin: 0 48px 92px;
+  }
+}
+
+@media screen and (min-width:1280px){
+  .places {
     margin: 0 auto 92px;
   }
 }

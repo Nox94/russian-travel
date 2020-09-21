@@ -4,7 +4,7 @@
   margin: 0 auto 32px;
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:768px){
   .place__image {
     width: 340px;
     height: 340px;
